@@ -1,0 +1,129 @@
+body{
+	background: green;
+}
+.maindiv{
+	background: #F7D0F6;
+	justify-content: space-around;
+	display:flex; 
+	margin: 5%;
+}
+.leftdiv{
+	background: #F7DE92;
+	margin: 4%;
+	border-radius: 5%;
+	box-shadow: 4px 4px 4px 4px;
+	width: 25%;
+	height:40%;
+
+}
+.rightdiv{
+	background: #D1FBF5;
+	margin: 5%;
+	border-radius: 5%;
+	box-shadow: 4px 4px 4px 4px;
+	width: 60%;
+
+}
+img{
+	width: 70%;
+	height: 40%;
+	margin: 10%;
+	border-radius: 15%;
+	justify-content: space-around;
+}
+table{
+	overflow-x: auto;
+	overflow-wrap: all;
+	overflow-y:auto;
+	overflow: auto;
+}
+/*This is mobile view*/
+@media screen and (min-width:320px) and (max-width:480px){
+	body{
+	background: red;
+}
+.maindiv{
+	background: #F7D0F6;
+	display:inline-block; 
+	margin: 0.5%;
+	width:98%;
+}
+.leftdiv{
+	background: #F7DE92;
+	margin: 4%;
+	text-align:center;
+	border-radius: 5%;
+	box-shadow: 2px 2px 2px 2px;
+	width: 80%;
+	height:40%;
+	padding:2%;
+
+}
+.rightdiv{
+	background: #D1FBF5;
+	margin: 4%;
+	text-align:left;
+	border-radius: 5%;
+	box-shadow: 1px 1px 1px 1px;
+	width: 85%;
+    padding: 2%;
+    word-wrap: break-word;
+}
+img{
+	width: 40%;
+	height: 40%;
+	margin: 4%;
+	border-radius: 15%;
+}
+table{
+	overflow-x: auto;
+	overflow-wrap: break-word;
+	overflow-y:auto;
+	overflow: auto;
+}
+}
+/*This is tablet view*/
+@media screen and (min-width:600px) and (max-width:1024px){
+	body{
+	background: gray;
+}
+.maindiv{
+	background: #F7D0F6;
+	display:inline-block; 
+	margin: 0.5%;
+	width:98%;
+}
+.leftdiv{
+	background: #F7DE92;
+	margin: 4%;
+	text-align:center;
+	border-radius: 5%;
+	box-shadow: 2px 2px 2px 2px;
+	width: 80%;
+	height:40%;
+	padding:2%;
+
+}
+.ld1{
+	text-align:left;
+}
+.ld2{
+	text-align: right;
+}
+.rightdiv{
+	background: #D1FBF5;
+	margin: 4%;
+	text-align:left;
+	border-radius: 5%;
+	box-shadow: 1px 1px 1px 1px;
+	width: 85%;
+    padding: 2%;
+    word-wrap: break-word;
+}
+img{
+	width: 40%;
+	height: 40%;
+	margin: 4%;
+	border-radius: 15%;
+}
+}

@@ -1,0 +1,46 @@
+{
+	"Profile":{
+		"img":"image.jpg",
+		"Name":"Ramya",
+		"Roll_no":"526",
+		"Place":"Kakinada",
+		"Designation":"Student"
+	},
+	"Career":{
+		"Info":"I wanna seek a position where i can travel a lot of exciting adventurous places"
+	},
+	"Education":[
+		{
+			"S_No":"1",
+			"Degree":"BTech",
+			"Institute":"Pragati Engineering College",
+			"Percentage":"90",
+			"YOP":"2021"
+		},
+        {
+            "S_No":"2",
+            "Degree":"Intermediate",
+			"Institute":"Aditya Talent School",
+			"Percentage":"95",
+			"YOP":"2017"
+		},
+		{
+            "S_No":"3",
+            "Degree":"10th",
+			"Institute":"Ashram Public School",
+			"Percentage":"100",
+			"YOP":"2015"
+		}
+	],
+	"Languages":[
+		{
+			"Lang":"English"
+		},
+		{
+			"Lang":"Telugu"
+		},
+		{
+			"Lang":"Hindi"
+		}
+	]
+}
